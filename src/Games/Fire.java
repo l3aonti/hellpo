@@ -17,13 +17,4 @@ public class Fire extends Ability{
 
     }
 
-    @Override
-    public int setDef() {
-        return 3;
-    }
-
-    @Override
-    public int setAtack() {
-        return 5;
-    }
 }

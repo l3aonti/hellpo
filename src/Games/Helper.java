@@ -31,9 +31,9 @@ public class Helper {
     }
     public static String getName() throws FileNotFoundException {
         String aboba = "Bob";
-        File file = new File("name");
+        File file = new File("src/Resorces/MyName.txt");
         Scanner sc = new Scanner(file);
-        while(sc.hasNextLine()){
+        for(int i = 0; i < Helper.random(1, 9); i++){
             aboba = sc.nextLine();
         }
         return aboba;

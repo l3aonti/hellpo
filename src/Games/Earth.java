@@ -14,16 +14,8 @@ public class Earth extends Ability{
 
     @Override
     public void superA(Hero x) {
+        System.out.println(" Г Р Я З Е В А Я Л О В У Ш К А");
 
     }
 
-    @Override
-    public int setDef() {
-        return 5;
-    }
-
-    @Override
-    public int setAtack() {
-        return 4;
-    }
 }

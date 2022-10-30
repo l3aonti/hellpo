@@ -18,13 +18,4 @@ public class Air extends Ability {
 
     }
 
-    @Override
-    public int setDef() {
-        return 4;
-    }
-
-    @Override
-    public int setAtack() {
-        return 3;
-    }
 }

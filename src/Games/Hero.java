@@ -31,11 +31,12 @@ public class Hero {
     int health = 100;
     int protection;
 
-    public void getDamage(Hero x) {
+    public void getDamage() {
 
     }
 
     public void damage(Hero x) {
 
     }
+
 }
