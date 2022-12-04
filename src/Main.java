@@ -1,14 +1,14 @@
-import games.Games;
-import games.creature.Hero;
+public class Main
+{
+    public static void main(String[] args){
+        String leftAlignFormat = "| %-15s | %-4d |%n";
 
-import java.io.FileNotFoundException;
-import java.lang.reflect.GenericArrayType;
-
-public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
-        Games game = new Games();
-        game.setUp();
-        game.game();
-        game.finish();
+        System.out.format("+-----------------+------+%n");
+        System.out.format("| Column name     | ID   |%n");
+        System.out.format("+-----------------+------+%n");
+        for (int i = 0; i < 5; i++) {
+            System.out.format(leftAlignFormat, "some data " + i, i * i);
+        }
+        System.out.format("+-----------------+------+%n");
     }
 }
